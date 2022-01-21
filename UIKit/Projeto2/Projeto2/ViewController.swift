@@ -43,6 +43,7 @@ class ViewController: UIViewController {
 		correctAnswer = Int.random(in: 0...2)
 		
 		title = countries[correctAnswer].uppercased()
+		
 	}
 	
 	@IBAction func buttonTapped(_ sender: UIButton) {
